@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Belief Names Founder-->
+		<!--Belief Descriptions Founder-->
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_1_NAME">
+			<Text>theos krateo</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_1_DESCRIPTION">
+			<Text>+2[icon:YIELD_DIPLOMACY] Influence for every foreign Settlement following your Religion. </Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_NAME">
+			<Text>Crusade</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_DESCRIPTION">
+			<Text>Units gain +5 Combat Strength in Unfriendly Settlements that follow this Religion.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_COMBAT_PREVIEW">
+			<Text>+{1_Amount} Crusade Belief</Text>
+		</Row>
+    </EnglishText>
+</Database>

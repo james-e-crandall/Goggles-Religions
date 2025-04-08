@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Founder Beliefs -->
+	<Modifier id="BONUS_GOGGLES_CITIES_FOLLOWING_INFLUENCE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_CITIES_FOLLOWING_INFLUENCE_GOGGLES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_CITIES_FOLLOWING_INFLUENCE_GOGGLES" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
+	</Modifier>
+	
+	<Modifier id="BONUS_GOGGLES_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+			<Requirement type="REQUIREMENT_NEAR_RELIGIOUS_CITY">
+				<Argument name="FriendlyCity">false</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMBAT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_BELIEF_GOGGLES_COMBAT_PREVIEW</String>
+	</Modifier>
+
+</GameEffects>

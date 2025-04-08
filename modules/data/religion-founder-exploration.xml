@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Founder-->	
+		<Row Type="BELIEF_GOGGLES_BONUS_FOUNDER_1" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GOGGLES_BONUS_FOUNDER_2" Kind="KIND_BELIEF"/>
+	</Types>
+	<Beliefs>
+		<!--Founder-->	
+		<Row BeliefType="BELIEF_GOGGLES_BONUS_FOUNDER_1" Name="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_1_NAME" Description="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_1_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Row BeliefType="BELIEF_GOGGLES_BONUS_FOUNDER_2" Name="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_NAME" Description="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+	
+	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_1"/>
+	</Update>
+	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_2"/>
+	</Update>
+	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_3"/>
+	</Update>
+	 	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_4"/>
+	</Update>
+	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_5"/>
+	</Update>
+	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_6"/>
+	</Update>
+	 	<Update>
+		<Set BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Where BeliefType="BELIEF_BONUS_7"/>
+	</Update>
+
+
+
+	</Beliefs>
+	<BeliefModifiers>
+		<!--Founder-->
+		<Row BeliefType="BELIEF_GOGGLES_BONUS_FOUNDER_1" ModifierId="BONUS_GOGGLES_CITIES_FOLLOWING_INFLUENCE"/>
+		<Row BeliefType="BELIEF_GOGGLES_BONUS_FOUNDER_2" ModifierId="BONUS_GOGGLES_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY"/>
+
+	</BeliefModifiers>
+	<RequirementSets>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+	</RequirementSetRequirements>
+	<Requirements>
+
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+
+  <!--AI-->
+  <Belief_Priorities>
+
+  </Belief_Priorities>
+  <AiListTypes>
+  </AiListTypes>
+  <AiLists>
+
+  </AiLists>
+  <AiFavoredItems>
+
+  </AiFavoredItems>
+</Database>

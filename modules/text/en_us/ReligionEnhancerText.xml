@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Belief Names Enhancer-->
+		<!--Belief Descriptions Enhancer-->
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_1_NAME">
+			<Text>Hygieia</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_1_DESCRIPTION">
+			<Text>+2 Relic Slots in Hospitals in Cities</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_2_NAME">
+			<Text>Physis</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_2_DESCRIPTION">
+			<Text>+2 Relic Slots in Menagerie in Cities</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_3_NAME">
+			<Text>Rokuonji</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_3_DESCRIPTION">
+			<Text>+2 Relic Slots in Pavilion in Cities</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_4_NAME">
+			<Text>Platonic Ideal</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_4_DESCRIPTION">
+			<Text>+2 Relic Slots in Golden Age Academy in Cities</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_5_NAME">
+			<Text>Katharsis</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_ENHANCER_5_DESCRIPTION">
+			<Text>+2 Relic Slots in Golden Age Amphitheater in Cities</Text>
+		</Row>
+
+		<!--Pantheon Names-->
+		<Row Tag="LOC_PANTHEON_BONUS_1_NAME">
+			<Text>City Patron Goddess</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_2_NAME">
+			<Text>Earth Goddess</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_3_NAME">
+			<Text>Fertility Rites</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_4_NAME">
+			<Text>Goddess of Festivals</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_5_NAME">
+			<Text>God of Healing</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_6_NAME">
+			<Text>Goddess of the Harvest</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_7_NAME">
+			<Text>God of the Forest</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_8_NAME">
+			<Text>God of the Forge</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_9_NAME">
+			<Text>God of the Sea</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_10_NAME">
+			<Text>God of the Sun</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_11_NAME">
+			<Text>God of War</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_12_NAME">
+			<Text>God of Wisdom</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_13_NAME">
+			<Text>Monument to the Gods</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_14_NAME">
+			<Text>Oral Tradition</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_15_NAME">
+			<Text>Sacred Waters</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_16_NAME">
+			<Text>Stone Circles</Text>
+		</Row>
+		<!--Pantheon Descriptions-->
+		<Row Tag="LOC_PANTHEON_BONUS_1_DESCRIPTION">
+			<Text>+2[icon:YIELD_DIPLOMACY] Influence on the Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_2_DESCRIPTION">
+			<Text>The Temple receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Mountains and Natural Wonders.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_3_DESCRIPTION">
+			<Text>+10% Growth Rate in Cities with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_4_DESCRIPTION">
+			<Text>+1[icon:YIELD_CULTURE] Culture on Quarters in Settlements with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_5_DESCRIPTION">
+			<Text>+5 healing for Units in Rural tiles.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_6_DESCRIPTION">
+			<Text>+1[icon:YIELD_FOOD] Food on Farms, Pastures, and Plantations in Settlements with an Temple. Warehouse bonus.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_7_DESCRIPTION">
+			<Text>+1[icon:YIELD_GOLD] Gold on Camps and Woodcutters in Settlements with an Temple. Warehouse bonus.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_8_DESCRIPTION">
+			<Text>+10%[icon:YIELD_PRODUCTION] Production towards constructing Buildings in Cities with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_9_DESCRIPTION">
+			<Text>+1[icon:YIELD_PRODUCTION] Production on Fishing Boats in Settlements with an Temple. Warehouse bonus.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_10_DESCRIPTION">
+			<Text>+1[icon:YIELD_CULTURE] Culture,[icon:YIELD_FOOD] Food,[icon:YIELD_GOLD] Gold,[icon:YIELD_HAPPINESS] Happiness,[icon:YIELD_PRODUCTION] Production, and[icon:YIELD_SCIENCE] Science on the Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_11_DESCRIPTION">
+			<Text>+15%[icon:YIELD_PRODUCTION] Production towards training Military Units in Cities with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_12_DESCRIPTION">
+			<Text>+1[icon:YIELD_SCIENCE] Science on Quarters in Settlements with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_13_DESCRIPTION">
+			<Text>+10%[icon:YIELD_PRODUCTION] Production towards constructing Wonders in Cities with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_14_DESCRIPTION">
+			<Text>+10%[icon:YIELD_PRODUCTION] Production towards training Settlers in Cities with an Temple.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_15_DESCRIPTION">
+			<Text>The Temple receives a +1[icon:YIELD_HAPPINESS] Happiness Adjacency for Coast, Lakes, and Navigable River tiles.</Text>
+		</Row>
+		<Row Tag="LOC_PANTHEON_BONUS_16_DESCRIPTION">
+			<Text>+1[icon:YIELD_PRODUCTION] Production on Clay Pits, Mines, and Quarries in Settlements with an Temple. Warehouse bonus.</Text>
+		</Row>
+
+    </EnglishText>
+</Database>

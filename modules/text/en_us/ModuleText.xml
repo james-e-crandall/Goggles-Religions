@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_GOGGLES_RELIGIONS_NAME">
+			<Text>Goggle's Religions</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_GOGGLES_RELIGIONS_DESCRIPTION">
+			<Text>Goggle's Religions</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_AUTHORS_JEC">
+			<Text>The_Goggles_Do_Nothing</Text>
+		</InsertOrIgnore>
+	</EnglishText>
+</Database>

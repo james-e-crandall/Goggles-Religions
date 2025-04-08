@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="goggles-religions" version="1"
+	xmlns="ModInfo">
+	<!-- Atributions: 
+
+	-->
+	<Properties>
+		<Name>LOC_MODULE_GOGGLES_RELIGIONS_NAME</Name>
+		<Description>LOC_MODULE_GOGGLES_RELIGIONS_DESCRIPTION</Description>
+		<Authors>LOC_AUTHORS_JEC</Authors>
+		<Package>DLC</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="goggles-religions-always" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+				</UpdateDatabase>
+				<UpdateText>
+				</UpdateText>
+				<ImportFiles>
+				</ImportFiles>
+				<UpdateIcons>
+				</UpdateIcons>
+				<ScenarioScripts>
+				</ScenarioScripts>
+				<MapGenScripts>
+				</MapGenScripts>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="goggles-religions-antiquity-age-current" scope="game" criteria="antiquity-age-current">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/religion-antiquity.sql</Item>
+				</UpdateDatabase>
+				<UpdateText>
+				</UpdateText>
+				<ImportFiles>
+				</ImportFiles>
+				<UpdateIcons>
+				</UpdateIcons>
+				<ScenarioScripts>
+				</ScenarioScripts>
+				<MapGenScripts>
+				</MapGenScripts>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="goggles-religions-exploration-age-current" scope="game" criteria="exploration-age-current">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/religion-enhancer-exploration-gameeffects.xml</Item>
+					<Item>data/religion-reliquary-exploration-gameeffects.xml</Item>
+					<Item>data/religion-founder-exploration-gameeffects.xml</Item>
+					<Item>data/religion-enhancer-exploration.xml</Item>
+					<Item>data/religion-reliquary-exploration.xml</Item>
+					<Item>data/religion-founder-exploration.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/ReligionEnhancerText.xml</Item>
+					<Item>text/en_us/ReligionReliquaryText.xml</Item>
+					<Item>text/en_us/ReligionFounderText.xml</Item>
+				</UpdateText>
+				<ImportFiles>
+				</ImportFiles>
+				<UpdateIcons>
+				</UpdateIcons>
+				<ScenarioScripts>
+				</ScenarioScripts>
+				<MapGenScripts>
+				</MapGenScripts>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-goggles-maps" scope="shell" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+				</UpdateDatabase>
+				<UpdateText>
+				</UpdateText>
+				<ImportFiles>
+				</ImportFiles>
+				<UpdateIcons>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

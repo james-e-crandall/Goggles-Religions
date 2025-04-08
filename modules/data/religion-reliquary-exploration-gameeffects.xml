@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- Reliquary Beliefs -->
+	<Modifier id="BONUS_GOGGLES_RELIC_FOR_BUILDING_WONDER" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_RELIC_FOR_BUILDING_WONDER_GOGGLES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_RELIC_FOR_BUILDING_WONDER_GOGGLES" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_RELIC_FOR_BUILDING_WONDER">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="BONUS_GOGGLES_RELIC_FOR_GOLDEN_AGE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_RELIC_FOR_BUILDING_WONDER_GOGGLES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_RELIC_FOR_GOLDEN_AGE_GOGGLES" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_RELIC_FOR_GOLDEN_AGE">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="BONUS_GOGGLES_RELIC_FOR_PROGRESSION_TREE_MASTERY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_RELIC_FOR_PROGRESSION_TREE_MASTERY_GOGGLES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_RELIC_FOR_PROGRESSION_TREE_MASTERY_GOGGLES" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_RELIC_FOR_PROGRESSION_TREE_MASTERY">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="BONUS_GOGGLES_RELIC_FOR_RESOURCE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_RELIC_FOR_RESOURCE_GOGGLES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_RELIC_FOR_RESOURCE_GOGGLES" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_RELIC_FOR_RESOURCE">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	
+	<Modifier id="BONUS_GOGGLES_RELIC_FROM_HOSPITAL" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BONUS_GOGGLES_RELIC_FROM_HOSPITAL</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BONUS_GOGGLES_RELIC_FROM_HOSPITAL" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_GREAT_WORK">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_BUILT_CONSTRUCTIBLE_TYPE">
+				<Argument name="ConstructibleType">BUILDING_HOSPITAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ObjectType">GREATWORKOBJECT_RELIC</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+</GameEffects>

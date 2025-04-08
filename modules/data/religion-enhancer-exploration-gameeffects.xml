@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Enhancer Beliefs -->
+	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_HOSPITAL" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_HOSPITAL</Argument>
+		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_MENAGERIE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_MENAGERIE</Argument>
+		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_PAVILION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_PAVILION</Argument>
+		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_ACADEMY_EX" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_ACADEMY_EX</Argument>
+		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_AMPHITHEATER_EX" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_AMPHITHEATER_EX</Argument>
+		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	
+<!-- Pantheon 1 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_YIELD_INFLUENCE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_YIELD_INFLUENCE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_YIELD_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="ConstructibleType">BUILDING_TEMPLE</Argument>
+		<Argument name="Tooltip">LOC_PANTHEON_BONUS_1_NAME</Argument>
+	</Modifier>
+	<!-- Pantheon 2 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_MOUNTAIN_ADJACENCY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_MOUNTAIN_ADJACENCY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_MOUNTAIN_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AltarMountainHappiness</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_NATURAL_WONDER_ADJACENCY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_NATURAL_WONDER_ADJACENCY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_NATURAL_WONDER_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AltarNaturalWonderHappiness</Argument>
+	</Modifier>
+	<!-- Pantheon 3 -->
+	<Modifier id="MOD_PANTHEON_CITY_GROWTH_RATE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_CITY_GROWTH_RATE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_CITY_GROWTH_RATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">10</Argument>
+	</Modifier>
+	<!-- Pantheon 4 -->
+	<Modifier id="MOD_PANTHEON_URBAN_CULTURE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_URBAN_CULTURE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_URBAN_CULTURE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER">
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_PANTHEON_BONUS_4_NAME</Argument>
+	</Modifier>
+	<!-- Pantheon 5 -->
+	<Modifier id="MOD_PANTHEON_UNIT_HEALING" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_UNIT_HEALING</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_UNIT_HEALING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_STATIONED_ON_DISTRICT">
+				<Argument name="DistrictType">DISTRICT_RURAL</Argument>
+				<Argument name="Owned">false</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+	</Modifier>
+	<!-- Pantheon 6 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_PASTURE_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_PASTURE_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_PASTURE_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarPastureFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_PLANTATION_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_PLANTATION_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_PLANTATION_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarPlantationFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_DESERT_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_DESERT_FLOODPLAIN_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_DESERT_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarDesertFloodplainFeatureFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_GRASSLAND_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_GRASSLAND_FLOODPLAIN_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_GRASSLAND_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarGrasslandFloodplainFeatureFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_PLAINS_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_PLAINS_FLOODPLAIN_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_PLAINS_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarPlainsFloodplainFeatureFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_TROPICAL_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_TROPICAL_FLOODPLAIN_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_TROPICAL_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarTropicalFloodplainFeatureFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_TUNDRA_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_TUNDRA_FLOODPLAIN_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_TUNDRA_FLOODPLAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarTundraFloodplainFeatureFood</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_FLAT_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_FLAT_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_FLAT_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarFlatTerrainFood</Argument>
+	</Modifier>
+	<!-- Pantheon 7 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_CAMP_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_CAMP_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_CAMP_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarCampGold</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_WOODCUTTER_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_WOODCUTTER_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_WOODCUTTER_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarWoodcutterResourceGold</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_VEGETATED_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_VEGETATED_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_VEGETATED_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarVegetatedFeatureGold</Argument>
+	</Modifier>
+	<!-- Pantheon 8 -->
+	<Modifier id="MOD_PANTHEON_BUILDING_PRODUCTION" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_BUILDING_PRODUCTION</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_BUILDING_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ConstructibleClass">BUILDING</Argument>
+		<Argument name="Apply">Rate</Argument>
+		<Argument name="Percent">10</Argument>
+	</Modifier>
+	<!-- Pantheon 9 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_FISHING_BOAT_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_FISHING_BOAT_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_FISHING_BOAT_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarFishingBoatResourceProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_REEF_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_REEF_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_REEF_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarReefFeatureProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_COLD_REEF_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_COLD_REEF_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_COLD_REEF_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarColdReefFeatureProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_COAST_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_COAST_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_COAST_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarCoastTerrainProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_NAVIGABLE_RIVER_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_NAVIGABLE_RIVER_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_NAVIGABLE_RIVER_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarNavigableRiverProduction</Argument>
+	</Modifier>
+	<!-- Pantheon 10 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_YIELD" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_YIELD</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE,YIELD_FOOD,YIELD_GOLD,YIELD_HAPPINESS,YIELD_PRODUCTION,YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1,1,1,1,1,1</Argument>
+		<Argument name="ConstructibleType">BUILDING_TEMPLE</Argument>
+		<Argument name="Tooltip">LOC_PANTHEON_BONUS_10_NAME</Argument>
+	</Modifier>
+	<!-- Pantheon 11 -->
+	<Modifier id="MOD_PANTHEON_UNIT_PRODUCTION" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_UNIT_PRODUCTION</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_UNIT_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitClass">UNIT_CLASS_COMBAT</Argument>
+		<Argument name="Percent">15</Argument>
+		<Argument name="Tooltip">LOC_PANTHEON_BONUS_11_NAME</Argument>
+	</Modifier>
+	<!-- Pantheon 12 -->
+	<Modifier id="MOD_PANTHEON_URBAN_SCIENCE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_URBAN_SCIENCE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_URBAN_SCIENCE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER">
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_PANTHEON_BONUS_12_NAME</Argument>
+	</Modifier>
+	<!-- Pantheon 13 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_WONDER_PRODUCTION" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_WONDER_PRODUCTION</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_WONDER_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">10</Argument>
+	</Modifier>
+	<!-- Pantheon 14 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_SETTLER_PRODUCTION" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_SETTLER_PRODUCTION</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_SETTLER_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_TEMPLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">10</Argument>
+		<Argument name="UnitClass">UNIT_CLASS_CREATE_TOWN</Argument>
+	</Modifier>
+	<!-- Pantheon 15 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_COAST_ADJACENCY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_COAST_ADJACENCY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_COAST_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">AltarCoastHappiness</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_LAKE_ADJACENCY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_LAKE_ADJACENCY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_LAKE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">AltarLakeHappiness</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_RIVER_ADJACENCY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_RIVER_ADJACENCY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_RIVER_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AltarRiverHappiness</Argument>
+	</Modifier>
+	<!-- Pantheon 16 -->
+	<Modifier id="MOD_PANTHEON_TEMPLE_MINE_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_MINE_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_MINE_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarMineResourceProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_QUARRY_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_QUARRY_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_QUARRY_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarQuarryProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_ROUGH_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_ROUGH_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_ROUGH_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarRoughTerrainProduction</Argument>
+	</Modifier>
+	<Modifier id="MOD_PANTHEON_TEMPLE_WET_WAREHOUSE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_PANTHEON_TEMPLE_WET_WAREHOUSE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_PANTHEON_TEMPLE_WET_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
+		<Argument name="ConstructibleWarehouseYield">PantheonAltarWetFeatureProduction</Argument>
+	</Modifier>
+
+</GameEffects>

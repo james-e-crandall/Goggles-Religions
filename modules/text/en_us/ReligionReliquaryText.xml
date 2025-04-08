@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		
+		<!--Belief Names Reliquary-->
+		<!--Belief Descriptions Reliquary-->
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_1_NAME">
+			<Text>Memori</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_1_DESCRIPTION">
+			<Text>+1 Relic for building a wonder.</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_2_NAME">
+			<Text>Lupercalia</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_2_DESCRIPTION">
+			<Text>+1 Relic at the start of a celebration.</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_3_NAME">
+			<Text>Siddhis</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_3_DESCRIPTION">
+			<Text>+1 Relic for completing a Civic Mastery.</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_4_NAME">
+			<Text>Nammu-Ki-An</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_4_DESCRIPTION">
+			<Text>+1 Relic for each new Resouce in Distant Lands.</Text>
+		</Row>
+
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_5_NAME">
+			<Text>Panacea</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_RELIQUARY_5_DESCRIPTION">
+			<Text>+1 Relic for building a Hospital.</Text>
+		</Row>
+
+    </EnglishText>
+</Database>
