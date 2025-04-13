@@ -41,20 +41,4 @@
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 	
-	<Modifier id="BONUS_GOGGLES_RELIC_FROM_HOSPITAL" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_BONUS_GOGGLES_RELIC_FROM_HOSPITAL</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_BONUS_GOGGLES_RELIC_FROM_HOSPITAL" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_GREAT_WORK">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_BUILT_CONSTRUCTIBLE_TYPE">
-				<Argument name="ConstructibleType">BUILDING_HOSPITAL</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="ObjectType">GREATWORKOBJECT_RELIC</Argument>
-		<Argument name="Amount">1</Argument>
-	</Modifier>
-
 </GameEffects>

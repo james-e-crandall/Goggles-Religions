@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+
+  <IconDefinitions>
+    <Row>
+      <ID>BELIEF_DANCE_OF_THE_AURORA</ID>
+      <Path>blp:pant_city</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_DESERT_FOLKLORE</ID>
+      <Path>blp:pant_earth</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_SACRED_PATH</ID>
+      <Path>blp:pant_fertility</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_RIVER_GODDESS</ID>
+      <Path>blp:pant_festivals</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_DIVINE_SPARK</ID>
+      <Path>blp:pant_healing</Path>
+    </Row>
+
+    <Row>
+      <ID>BELIEF_LADY_OF_THE_REEDS_AND_MARSHES</ID>
+      <Path>blp:pant_harvest</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_GOD_OF_THE_OPEN_SKY</ID>
+      <Path>blp:pant_forest</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_GODDESS_OF_THE_HUNT</ID>
+      <Path>blp:pant_forge</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_RELIGIOUS_IDOLS</ID>
+      <Path>blp:pant_sea</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_GOD_OF_CRAFTSMEN</ID>
+      <Path>blp:pant_sun</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_INITIATION_RITES</ID>
+      <Path>blp:pant_war</Path>
+    </Row>
+    <Row>
+      <ID>BELIEF_RELIGIOUS_SETTLEMENTS</ID>
+      <Path>blp:pant_wisdom</Path>
+    </Row>
+  </IconDefinitions>
+</Database>

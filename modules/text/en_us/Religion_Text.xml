@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--PANTHEON NAMES-->
+		<!--1. PANTHEON BELIEFS-->
+		<!--Pantheon - Adjacency Bonuses-->
+		<Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME">
+			<Text>Dance of the Aurora</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_DESERT_FOLKLORE_NAME">
+			<Text>Desert Folklore</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SACRED_PATH_NAME">
+			<Text>Sacred Path</Text>
+		</Row>
+		<!--Pantheon - Amenity Bonuses-->
+		<Row Tag="LOC_BELIEF_RIVER_GODDESS_NAME">
+			<Text>River Goddess</Text>
+		</Row>
+		<!--Pantheon - Gameplay Race Bonuses-->
+		<Row Tag="LOC_BELIEF_DIVINE_SPARK_NAME">
+			<Text>Divine Spark</Text>
+		</Row>
+		<!--Pantheon - Local Feature Bonuses-->
+		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME">
+			<Text>Lady of the Reeds and Marshes</Text>
+		</Row>
+		<!--Pantheon - Local Resource Bonuses-->
+		<Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME">
+			<Text>God of the Open Sky</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME">
+			<Text>Goddess of the Hunt</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_NAME">
+			<Text>Religious Idols</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME">
+			<Text>God of Craftsmen</Text>
+		</Row>
+		<!--Pantheon - Military -->
+		<Row Tag="LOC_BELIEF_INITIATION_RITES_NAME">
+			<Text>Initiation Rites</Text>
+		</Row>
+		<!--Pantheon - General Purpose-->
+		<Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME">
+			<Text>Religious Settlements</Text>
+		</Row>
+
+		<!--PANTHEON DESCRIPTIONS-->
+		<!--1. PANTHEON BELIEFS-->
+		<!--Pantheon - Adjacency Bonuses-->
+		<Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION">
+			<Text>Settlements with Alters get +2 [icon:YIELD_CULTURE] Culture from Tundra Bog tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION">
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness from adjacent Desert tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION">
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness from adjacent Tropical tiles.</Text>
+		</Row>
+		<!--Pantheon - Amenity Bonuses-->
+		<Row Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION">
+			<Text>Settlements with Alters get +1 [icon:YIELD_HAPPINESS] Happiness from Navigable River tiles.</Text>
+		</Row>
+		<!--Pantheon - Gameplay Race Bonuses-->
+		<Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION">
+			<Text>Alters get +1 [icon:YIELD_SCIENCE] Science and +1 [icon:YIELD_CUTLURE] Culture.</Text>
+		</Row>
+		<!--Pantheon - Local Feature Bonuses-->
+		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
+			<Text>+1 [icon:YIELD_PROUDCTION] Production from Marsh, Oasis.</Text>
+		</Row>
+		<!--Pantheon - Local Resource Bonuses-->
+		<Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
+			<Text>+2 [icon:YIELD_CULTURE] Culture from Watering Holes.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION">
+			<Text>+1 [icon:YIELD_CULTURE] Food from Camps.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION">
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Mines and Mines on resources.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION">
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Woodcutter and Woodcutter on resources.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
+			<Text>Increase in IP Conversion.</Text>
+		</Row>
+
+		<!--Pantheon - General Purpose-->
+		<Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION">
+			<Text>+100% Happines in Urban Settlements.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

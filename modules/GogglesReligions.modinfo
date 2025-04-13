@@ -59,13 +59,16 @@
 			</Properties>
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/religion-antiquity.sql</Item>
+					<Item>data/religion-antiquity-gameeffects.xml</Item>
+					<Item>data/religion-antiquity.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/Religion_Text.xml</Item>
 				</UpdateText>
 				<ImportFiles>
 				</ImportFiles>
 				<UpdateIcons>
+					<Item>icons/pantheon-icons.xml</Item>
 				</UpdateIcons>
 				<ScenarioScripts>
 				</ScenarioScripts>
@@ -85,6 +88,7 @@
 					<Item>data/religion-enhancer-exploration.xml</Item>
 					<Item>data/religion-reliquary-exploration.xml</Item>
 					<Item>data/religion-founder-exploration.xml</Item>
+					<Item>data/religion-exploration.sql</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/ReligionEnhancerText.xml</Item>

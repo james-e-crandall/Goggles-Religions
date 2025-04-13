@@ -8,7 +8,7 @@
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_HOSPITAL</Argument>
 		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">3</Argument>
 	</Modifier>
 	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_MENAGERIE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
@@ -17,7 +17,7 @@
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_MENAGERIE</Argument>
 		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">3</Argument>
 	</Modifier>
 	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_PAVILION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
@@ -26,7 +26,7 @@
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_PAVILION</Argument>
 		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">3</Argument>
 	</Modifier>
 	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_ACADEMY_EX" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
@@ -35,7 +35,7 @@
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_ACADEMY_EX</Argument>
 		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">3</Argument>
 	</Modifier>
 	<Modifier id="BONUS_GOGGLES_RELIC_SLOT_AMPHITHEATER_EX" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
@@ -44,7 +44,7 @@
 		</SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_AMPHITHEATER_EX</Argument>
 		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">3</Argument>
 	</Modifier>
 	
 <!-- Pantheon 1 -->

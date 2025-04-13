@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+
+
+	<!-- BELIEF_DANCE_OF_THE_AURORA -->
+	<Modifier id="MOD_BELIEF_DANCE_OF_THE_AURORA" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_DANCE_OF_THE_AURORA</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_DANCE_OF_THE_AURORA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AlterDanceOfTheAurora</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_DESERT_FOLKLORE -->
+	<Modifier id="MOD_BELIEF_DESERT_FOLKLORE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_DESERT_FOLKLORE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_DESERT_FOLKLORE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AlterDesertFolklore</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_SACRED_PATH -->
+	<Modifier id="MOD_BELIEF_SACRED_PATH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_SACRED_PATH</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_SACRED_PATH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AlterSacredPath</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_RIVER_GODDESS -->
+	<Modifier id="MOD_BELIEF_RIVER_GODDESS" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_RIVER_GODDESS</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_RIVER_GODDESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">AlterRiverGoddess</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_DIVINE_SPARK -->
+	<Modifier id="MOD_BELIEF_DIVINE_SPARK_SCIENCE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_SCIENCE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_ALTER</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="MOD_BELIEF_DIVINE_SPARK_CULTURE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_CULTURE</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_ALTER</Argument>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_RIVER_GODDESS -->
+	<Modifier id="MOD_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="WarehouseYieldChange">AlterLadyOfTheReedsAndMarshesOasis, AlterLadyOfTheReedsAndMarshesMarsh</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_RIVER_GODDESS -->
+	<Modifier id="MOD_BELIEF_GOD_OF_THE_OPEN_SKY" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_GOD_OF_THE_OPEN_SKY</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_GOD_OF_THE_OPEN_SKY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="WarehouseYieldChange">AlterGodOfTheOpenSky</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_GODDESS_OF_THE_HUNT -->
+	<Modifier id="MOD_BELIEF_GODDESS_OF_THE_HUNT" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_GODDESS_OF_THE_HUNT</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_GODDESS_OF_THE_HUNT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="WarehouseYieldChange">AlterGoddesOfTheHunt</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_RELIGIOUS_IDOLS -->
+	<Modifier id="MOD_BELIEF_RELIGIOUS_IDOLS" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_GODDESS_OF_THE_HUNT</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_RELIGIOUS_IDOLS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="WarehouseYieldChange">AlterReligiousIdolsMine, AlterReligiousIdolsMineResources</Argument>
+	</Modifier>
+	<!-- MOD_BELIEF_GOD_OF_CRAFTSMEN -->
+	<Modifier id="MOD_BELIEF_GOD_OF_CRAFTSMEN" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_GOD_OF_CRAFTSMEN</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_GOD_OF_CRAFTSMEN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="WarehouseYieldChange">AlterGodOfCraftsmentWoodcutter, AlterGodOfCraftsmentWoodcutterResources</Argument>
+	</Modifier>
+
+	<!-- MOD_BELIEF_INITIATION_RITES -->
+	<Modifier id="MOD_BELIEF_INITIATION_RITES" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_INITIATION_RITES</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_INITIATION_RITES" collection="COLLECTION_OWNER" effect="EFFECT_CHANGE_INDEPENDENT_INVESTMENT">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<!-- MOD_BELIEF_RELIGIOUS_SETTLEMENTS -->
+	<Modifier id="MOD_BELIEF_RELIGIOUS_SETTLEMENTS" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_BELIEF_RELIGIOUS_SETTLEMENTS</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_BELIEF_RELIGIOUS_SETTLEMENTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Percent">100</Argument>
+		<Argument name="Tooltip">LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME</Argument>
+		<String context="Description">LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>
