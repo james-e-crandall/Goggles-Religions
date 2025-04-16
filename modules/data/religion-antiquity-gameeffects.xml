@@ -50,9 +50,9 @@
 		</SubjectRequirements>
 		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_SCIENCE</Argument>
 	</Modifier>
-	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="ConstructibleType">BUILDING_ALTER</Argument>
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 	<Modifier id="MOD_BELIEF_DIVINE_SPARK_CULTURE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
@@ -61,9 +61,9 @@
 		</SubjectRequirements>
 		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_CULTURE</Argument>
 	</Modifier>
-	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="ConstructibleType">BUILDING_ALTER</Argument>
-		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 	<!-- MOD_BELIEF_RIVER_GODDESS -->
@@ -118,14 +118,15 @@
 	</Modifier>
 
 	<!-- MOD_BELIEF_INITIATION_RITES -->
+	<!-- UNIQUE_IMPROVEMENT -->
 	<Modifier id="MOD_BELIEF_INITIATION_RITES" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
 		</SubjectRequirements>
 		<Argument name="ModifierId">ATTACH_BELIEF_INITIATION_RITES</Argument>
 	</Modifier>
-	<Modifier id="ATTACH_BELIEF_INITIATION_RITES" collection="COLLECTION_OWNER" effect="EFFECT_CHANGE_INDEPENDENT_INVESTMENT">
-		<Argument name="Amount">1</Argument>
+	<Modifier id="ATTACH_BELIEF_INITIATION_RITES" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="WarehouseYieldChange">AlterInitiationRites</Argument>
 	</Modifier>
 
 	<!-- MOD_BELIEF_RELIGIOUS_SETTLEMENTS -->
@@ -137,12 +138,12 @@
 	</Modifier>
 	<Modifier id="ATTACH_BELIEF_RELIGIOUS_SETTLEMENTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
-				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="HasAnyProject">true</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Percent">100</Argument>
+		<Argument name="Percent">50</Argument>
 		<Argument name="Tooltip">LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME</Argument>
 		<String context="Description">LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION</String>
 	</Modifier>

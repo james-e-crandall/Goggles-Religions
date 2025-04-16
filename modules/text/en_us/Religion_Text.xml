@@ -51,7 +51,7 @@
 		<!--1. PANTHEON BELIEFS-->
 		<!--Pantheon - Adjacency Bonuses-->
 		<Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION">
-			<Text>Settlements with Alters get +2 [icon:YIELD_CULTURE] Culture from Tundra Bog tiles.</Text>
+			<Text>Settlements with Alters get +1 [icon:YIELD_HAPPINESS] Happiness from Tundra Bog tiles.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION">
 			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness from adjacent Desert tiles.</Text>
@@ -65,18 +65,18 @@
 		</Row>
 		<!--Pantheon - Gameplay Race Bonuses-->
 		<Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION">
-			<Text>Alters get +1 [icon:YIELD_SCIENCE] Science and +1 [icon:YIELD_CUTLURE] Culture.</Text>
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness and +1 [icon:YIELD_GOLD] Gold.</Text>
 		</Row>
 		<!--Pantheon - Local Feature Bonuses-->
 		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
-			<Text>+1 [icon:YIELD_PROUDCTION] Production from Marsh, Oasis.</Text>
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Marsh, Oasis.</Text>
 		</Row>
 		<!--Pantheon - Local Resource Bonuses-->
 		<Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
-			<Text>+2 [icon:YIELD_CULTURE] Culture from Watering Holes.</Text>
+			<Text>+2 [icon:YIELD_HAPPINESS] Happiness from Watering Holes.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION">
-			<Text>+1 [icon:YIELD_CULTURE] Food from Camps.</Text>
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Camps.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION">
 			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Mines and Mines on resources.</Text>
@@ -85,12 +85,11 @@
 			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Woodcutter and Woodcutter on resources.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_INITIATION_RITES_DESCRIPTION">
-			<Text>Increase in IP Conversion.</Text>
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness from adjacent Happiness buidlings.</Text>
 		</Row>
-
 		<!--Pantheon - General Purpose-->
 		<Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION">
-			<Text>+100% Happines in Urban Settlements.</Text>
+			<Text>+50% Happiness in Towns with Specizations.</Text>
 		</Row>
 
 	</EnglishText>

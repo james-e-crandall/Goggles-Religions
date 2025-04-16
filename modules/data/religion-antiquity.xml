@@ -43,8 +43,8 @@
 		<Row BeliefType="BELIEF_DESERT_FOLKLORE" ModifierID="MOD_BELIEF_DESERT_FOLKLORE"/>
 		<Row BeliefType="BELIEF_SACRED_PATH" ModifierID="MOD_BELIEF_SACRED_PATH"/>
 		<Row BeliefType="BELIEF_RIVER_GODDESS" ModifierID="MOD_BELIEF_RIVER_GODDESS"/>
-		<Row BeliefType="BELIEF_DIVINE_SPARK" ModifierID="MOD_BELIEF_DIVINE_SPARK_SCIENCE"/>
-		<Row BeliefType="BELIEF_DIVINE_SPARK" ModifierID="MOD_BELIEF_DIVINE_SPARK_CULTURE"/>
+		<Row BeliefType="BELIEF_DIVINE_SPARK" ModifierID="MOD_BELIEF_DIVINE_SPARK_HAPPINESS"/>
+		<Row BeliefType="BELIEF_DIVINE_SPARK" ModifierID="MOD_BELIEF_DIVINE_SPARK_GOLD"/>
 		<Row BeliefType="BELIEF_LADY_OF_THE_REEDS_AND_MARSHES" ModifierID="MOD_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES"/>
 		<Row BeliefType="BELIEF_GOD_OF_THE_OPEN_SKY" ModifierID="MOD_BELIEF_GOD_OF_THE_OPEN_SKY"/>
 		<Row BeliefType="BELIEF_GODDESS_OF_THE_HUNT" ModifierID="MOD_BELIEF_GODDESS_OF_THE_HUNT"/>
@@ -57,10 +57,12 @@
 	<Constructible_Adjacencies>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterDesertFolklore" RequiresActivation="true"/>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterSacredPath" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterInitiationRites" RequiresActivation="true"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="AlterDesertFolklore" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentBiome="BIOME_DESERT"/>
 		<Row ID="AlterSacredPath" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentBiome="BIOME_TROPICAL"/>
+		<Row ID="AlterInitiationRites" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentConstructibleTag="HAPPINESS"/>
 	</Adjacency_YieldChanges>
 
 	<!-- Constructible_WarehouseYields and Warehouse_YieldChanges -->
@@ -80,12 +82,12 @@
 	
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
-		<Row ID="AlterDanceOfTheAurora" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" FeatureInCity="FEATURE_TUNDRA_BOG"/>
+		<Row ID="AlterDanceOfTheAurora" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_TUNDRA_BOG"/>
 		<Row ID="AlterRiverGoddess" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" NavigableRiverInCity="true"/>
-		<Row ID="AlterLadyOfTheReedsAndMarshesOasis" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_OASIS"/>
-		<Row ID="AlterLadyOfTheReedsAndMarshesMarsh" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_MARSH"/>
-		<Row ID="AlterGodOfTheOpenSky" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" FeatureInCity="FEATURE_WATERING_HOLE"/>
-		<Row ID="AlterGoddesOfTheHunt" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
+		<Row ID="AlterLadyOfTheReedsAndMarshesOasis" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_OASIS"/>
+		<Row ID="AlterLadyOfTheReedsAndMarshesMarsh" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_MARSH"/>
+		<Row ID="AlterGodOfTheOpenSky" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="2" FeatureInCity="FEATURE_WATERING_HOLE"/>
+		<Row ID="AlterGoddesOfTheHunt" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
 		<Row ID="AlterReligiousIdolsMine" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE"/>
 		<Row ID="AlterReligiousIdolsMineResources" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
 		<Row ID="AlterGodOfCraftsmentWoodcutter" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER"/>
