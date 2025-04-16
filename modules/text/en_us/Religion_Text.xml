@@ -51,13 +51,13 @@
 		<!--1. PANTHEON BELIEFS-->
 		<!--Pantheon - Adjacency Bonuses-->
 		<Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION">
-			<Text>Settlements with Alters get +1 [icon:YIELD_HAPPINESS] Happiness from Tundra Bog tiles.</Text>
+			<Text>Settlements with Alters get +1 [icon:YIELD_HAPPINESS] Happiness from Tundra Bog.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION">
-			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness from adjacent Desert tiles.</Text>
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness for every two adjacent Desert tiles.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION">
-			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness from adjacent Tropical tiles.</Text>
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness for every two adjacent Tropical tiles.</Text>
 		</Row>
 		<!--Pantheon - Amenity Bonuses-->
 		<Row Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION">
@@ -69,14 +69,14 @@
 		</Row>
 		<!--Pantheon - Local Feature Bonuses-->
 		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
-			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Marsh, Oasis.</Text>
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Marsh and Oasis.</Text>
 		</Row>
 		<!--Pantheon - Local Resource Bonuses-->
 		<Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION">
 			<Text>+2 [icon:YIELD_HAPPINESS] Happiness from Watering Holes.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION">
-			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Camps.</Text>
+			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Camps and Pastures.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION">
 			<Text>+1 [icon:YIELD_HAPPINESS] Happiness from Mines and Mines on resources.</Text>
@@ -89,7 +89,7 @@
 		</Row>
 		<!--Pantheon - General Purpose-->
 		<Row Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION">
-			<Text>+50% Happiness in Towns with Specizations.</Text>
+			<Text>+50% Happiness in Towns with Specizations and an Alter.</Text>
 		</Row>
 
 	</EnglishText>

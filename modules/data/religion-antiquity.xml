@@ -17,24 +17,17 @@
 
 	<Beliefs>
 		<!--PANTHEON BELIEFS-->
-		<!--Pantheon - Adjacency Bonuses-->
 		<Row BeliefType="BELIEF_DANCE_OF_THE_AURORA" Name="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME" Description="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_DESERT_FOLKLORE" Name="LOC_BELIEF_DESERT_FOLKLORE_NAME" Description="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_SACRED_PATH" Name="LOC_BELIEF_SACRED_PATH_NAME" Description="LOC_BELIEF_SACRED_PATH_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<!--Pantheon - Amenity Bonuses-->
 		<Row BeliefType="BELIEF_RIVER_GODDESS" Name="LOC_BELIEF_RIVER_GODDESS_NAME" Description="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<!--Pantheon - Gameplay Race Bonuses-->
 		<Row BeliefType="BELIEF_DIVINE_SPARK" Name="LOC_BELIEF_DIVINE_SPARK_NAME" Description="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<!--Pantheon - Local Feature Bonuses-->
 		<Row BeliefType="BELIEF_LADY_OF_THE_REEDS_AND_MARSHES" Name="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME" Description="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<!--Pantheon - Local Resource Bonuses-->
 		<Row BeliefType="BELIEF_GOD_OF_THE_OPEN_SKY" Name="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME" Description="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_GODDESS_OF_THE_HUNT" Name="LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME" Description="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_RELIGIOUS_IDOLS" Name="LOC_BELIEF_RELIGIOUS_IDOLS_NAME" Description="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_GOD_OF_CRAFTSMEN" Name="LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME" Description="LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<!--Pantheon -Military-->
 		<Row BeliefType="BELIEF_INITIATION_RITES" Name="LOC_BELIEF_INITIATION_RITES_NAME" Description="LOC_BELIEF_INITIATION_RITES_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<!--Pantheon - General Purpose-->
 		<Row BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS" Name="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_NAME" Description="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 	</Beliefs>
 	
@@ -72,27 +65,25 @@
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterLadyOfTheReedsAndMarshesOasis" RequiresActivation="true"/>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterLadyOfTheReedsAndMarshesMarsh" RequiresActivation="true"/>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterGodOfTheOpenSky" RequiresActivation="true"/>
-		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterGoddesOfTheHunt" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterGoddesOfTheHuntCamp" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterGoddesOfTheHuntPasture" RequiresActivation="true"/>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterReligiousIdolsMine" RequiresActivation="true"/>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterReligiousIdolsMineResources" RequiresActivation="true"/>
-	
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterGodOfCraftsmentWoodcutter" RequiresActivation="true"/>
 		<Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AlterGodOfCraftsmentWoodcutterResources" RequiresActivation="true"/>
-	
-	
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
 		<Row ID="AlterDanceOfTheAurora" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_TUNDRA_BOG"/>
 		<Row ID="AlterRiverGoddess" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" NavigableRiverInCity="true"/>
 		<Row ID="AlterLadyOfTheReedsAndMarshesOasis" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_OASIS"/>
 		<Row ID="AlterLadyOfTheReedsAndMarshesMarsh" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_MARSH"/>
-		<Row ID="AlterGodOfTheOpenSky" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="2" FeatureInCity="FEATURE_WATERING_HOLE"/>
-		<Row ID="AlterGoddesOfTheHunt" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
+		<Row ID="AlterGodOfTheOpenSky" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" FeatureInCity="FEATURE_WATERING_HOLE"/>
+		<Row ID="AlterGoddesOfTheHuntCamp" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
+		<Row ID="AlterGoddesOfTheHuntPasture" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PASTURE"/>
 		<Row ID="AlterReligiousIdolsMine" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE"/>
 		<Row ID="AlterReligiousIdolsMineResources" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
 		<Row ID="AlterGodOfCraftsmentWoodcutter" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER"/>
 		<Row ID="AlterGodOfCraftsmentWoodcutterResources" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER_RESOURCE"/>
-
 	</Warehouse_YieldChanges>
 
 </Database>

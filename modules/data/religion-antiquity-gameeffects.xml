@@ -94,7 +94,7 @@
 		<Argument name="ModifierId">ATTACH_BELIEF_GODDESS_OF_THE_HUNT</Argument>
 	</Modifier>
 	<Modifier id="ATTACH_BELIEF_GODDESS_OF_THE_HUNT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
-		<Argument name="WarehouseYieldChange">AlterGoddesOfTheHunt</Argument>
+		<Argument name="WarehouseYieldChange">AlterGoddesOfTheHuntCamp, AlterGoddesOfTheHuntPasture</Argument>
 	</Modifier>
 	<!-- MOD_BELIEF_RELIGIOUS_IDOLS -->
 	<Modifier id="MOD_BELIEF_RELIGIOUS_IDOLS" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
@@ -140,6 +140,9 @@
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
 				<Argument name="HasAnyProject">true</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_ALTAR</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
