@@ -26,7 +26,7 @@
 		<Argument name="ModifierId">ATTACH_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY</Argument>
 	</Modifier>
 	<Modifier id="ATTACH_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">5</Argument>
+		<Argument name="Amount">3</Argument>
 		<String context="Preview">LOC_BELIEF_GOGGLES_COMBAT_PREVIEW</String>
 	</Modifier>
 

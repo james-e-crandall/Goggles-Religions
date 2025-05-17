@@ -59,6 +59,7 @@
 			</Properties>
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/constructibles-antiquity.xml</Item>
 					<Item>data/religion-antiquity-gameeffects.xml</Item>
 					<Item>data/religion-antiquity.xml</Item>
 				</UpdateDatabase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>  
+    <Adjacency_YieldChanges>
+        <Row ID="DivineSparkHappinessWildcardScience" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="BUILDING_ALTAR"/>
+        <Row ID="DivineSparkHappinessWildcardCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="BUILDING_ALTAR"/>
+    </Adjacency_YieldChanges>
+    <Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="DivineSparkHappinessWildcardScience" RequiresActivation="true" ConstructibleTag="SCIENCE"/>
+        <Row YieldChangeId="DivineSparkHappinessWildcardCulture" RequiresActivation="true" ConstructibleTag="CULTURE"/>
+	</Constructible_WildcardAdjacencies>
+</Database>

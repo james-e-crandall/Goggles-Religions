@@ -14,7 +14,7 @@
 			<Text>Crusade</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_DESCRIPTION">
-			<Text>Units gain +5 Combat Strength in Unfriendly Settlements that follow this Religion.</Text>
+			<Text>Units gain +3 Combat Strength in Unfriendly Settlements that follow this Religion.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_GOGGLES_COMBAT_PREVIEW">
 			<Text>+{1_Amount} Crusade Belief</Text>

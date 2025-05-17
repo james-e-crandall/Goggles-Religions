@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-
-
-
 	<!-- BELIEF_DANCE_OF_THE_AURORA -->
 	<Modifier id="MOD_BELIEF_DANCE_OF_THE_AURORA" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
@@ -44,27 +41,14 @@
 		<Argument name="ConstructibleAdjacency">AlterRiverGoddess</Argument>
 	</Modifier>
 	<!-- MOD_BELIEF_DIVINE_SPARK -->
-	<Modifier id="MOD_BELIEF_DIVINE_SPARK_SCIENCE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_BELIEF_DIVINE_SPARK_WILDCARD" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_SCIENCE</Argument>
+		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_WILDCARD</Argument>
 	</Modifier>
-	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="ConstructibleType">BUILDING_ALTER</Argument>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">1</Argument>
-	</Modifier>
-	<Modifier id="MOD_BELIEF_DIVINE_SPARK_CULTURE" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_PANTHEON"/>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_BELIEF_DIVINE_SPARK_CULTURE</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="ConstructibleType">BUILDING_ALTER</Argument>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">1</Argument>
+	<Modifier id="ATTACH_BELIEF_DIVINE_SPARK_WILDCARD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">DivineSparkHappinessWildcardScience, DivineSparkHappinessWildcardCulture</Argument>
 	</Modifier>
 	<!-- MOD_BELIEF_RIVER_GODDESS -->
 	<Modifier id="MOD_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">

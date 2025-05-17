@@ -65,7 +65,7 @@
 		</Row>
 		<!--Pantheon - Gameplay Race Bonuses-->
 		<Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION">
-			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness and +1 [icon:YIELD_GOLD] Gold.</Text>
+			<Text>Alters get +1 [icon:YIELD_HAPPINESS] Happiness Adjacency with Science and Culture buildings.</Text>
 		</Row>
 		<!--Pantheon - Local Feature Bonuses-->
 		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION">
