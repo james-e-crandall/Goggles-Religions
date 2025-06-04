@@ -89,7 +89,6 @@
 					<Item>data/religion-enhancer-exploration.xml</Item>
 					<Item>data/religion-reliquary-exploration.xml</Item>
 					<Item>data/religion-founder-exploration.xml</Item>
-					<Item>data/religion-exploration.sql</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/ReligionEnhancerText.xml</Item>
