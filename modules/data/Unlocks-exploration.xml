@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_GOGGLES_BONUS_FOUNDER_1" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_GOGGLES_BONUS_FOUNDER_2" Kind="KIND_UNLOCK"/>
+
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_1" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_2" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_3" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_4" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_5" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_6" Kind="KIND_UNLOCK"/>
+      <InsertOrIgnore Type="UNLOCK_BELIEF_BONUS_7" Kind="KIND_UNLOCK"/>
+    </Types>
+    <Unlocks>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_GOGGLES_BONUS_FOUNDER_1"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_GOGGLES_BONUS_FOUNDER_2"/>
+
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_1"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_2"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_3"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_4"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_5"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_6"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_7"/>
+    </Unlocks>
+    <UnlockRewards>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_GOGGLES_BONUS_FOUNDER_1" Name="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_1_NAME" Description="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_1_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_GOGGLES_BONUS_FOUNDER_2" Name="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_NAME" Description="LOC_BELIEF_GOGGLES_BONUS_FOUNDER_2_DESCRIPTION" Icon="ICON_VICTORY"/>
+    
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_1" Name="LOC_BELIEF_BONUS_1_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_1_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_2" Name="LOC_BELIEF_BONUS_2_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_2_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_3" Name="LOC_BELIEF_BONUS_3_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_3_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_4" Name="LOC_BELIEF_BONUS_4_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_4_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_5" Name="LOC_BELIEF_BONUS_5_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_5_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_6" Name="LOC_BELIEF_BONUS_6_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_6_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_7" Name="LOC_BELIEF_BONUS_7_NAME" Description="LOC_BELIEF_REQUNLOCK_BONUS_7_DESCRIPTION" Icon="ICON_VICTORY"/>
+
+      </UnlockRewards>
+    <Requirements>
+      <Row RequirementId="REQ_BELIEF_GOGGLES_BONUS_FOUNDER_1" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_GOGGLES_BONUS_FOUNDER_2" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+    
+    
+      <Row RequirementId="REQ_BELIEF_BONUS_1" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_BONUS_2" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_BONUS_3" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_BONUS_4" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_BONUS_5" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_BONUS_6" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+      <Row RequirementId="REQ_BELIEF_BONUS_7" RequirementType="REQUIREMENT_PLAYER_FOUNDED_RELIGION_WITH_BELIEF"/>
+    </Requirements>
+    <RequirementArguments>
+        <Row RequirementId="REQ_BELIEF_GOGGLES_BONUS_FOUNDER_1" Name="BeliefType" Value="BELIEF_GOGGLES_BONUS_FOUNDER_1"/>
+        <Row RequirementId="REQ_BELIEF_GOGGLES_BONUS_FOUNDER_2" Name="BeliefType" Value="BELIEF_GOGGLES_BONUS_FOUNDER_2"/>
+    
+        <Row RequirementId="REQ_BELIEF_BONUS_1" Name="BeliefType" Value="BELIEF_BONUS_1"/>
+        <Row RequirementId="REQ_BELIEF_BONUS_2" Name="BeliefType" Value="BELIEF_BONUS_2"/>
+        <Row RequirementId="REQ_BELIEF_BONUS_3" Name="BeliefType" Value="BELIEF_BONUS_3"/>
+        <Row RequirementId="REQ_BELIEF_BONUS_4" Name="BeliefType" Value="BELIEF_BONUS_4"/>
+        <Row RequirementId="REQ_BELIEF_BONUS_5" Name="BeliefType" Value="BELIEF_BONUS_5"/>
+        <Row RequirementId="REQ_BELIEF_BONUS_6" Name="BeliefType" Value="BELIEF_BONUS_6"/>
+        <Row RequirementId="REQ_BELIEF_BONUS_7" Name="BeliefType" Value="BELIEF_BONUS_7"/>
+      </RequirementArguments>
+    <RequirementSets>
+        <Row RequirementSetId="REQSET_GOGGLES_BELIEF_BONUS_1" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_GOGGLES_BELIEF_BONUS_2" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+   
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_1" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_2" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_3" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_4" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_5" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_6" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_7" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+      </RequirementSets>
+    <RequirementSetRequirements>
+        <Row RequirementSetId="REQSET_GOGGLES_BELIEF_BONUS_1" RequirementId="REQ_BELIEF_GOGGLES_BONUS_FOUNDER_1"/>
+        <Row RequirementSetId="REQSET_GOGGLES_BELIEF_BONUS_1" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <Row RequirementSetId="REQSET_GOGGLES_BELIEF_BONUS_2" RequirementId="REQ_BELIEF_GOGGLES_BONUS_FOUNDER_2"/>
+        <Row RequirementSetId="REQSET_GOGGLES_BELIEF_BONUS_2" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_1" RequirementId="REQ_BELIEF_BONUS_1"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_1" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_2" RequirementId="REQ_BELIEF_BONUS_2"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_2" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_3" RequirementId="REQ_BELIEF_BONUS_3"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_3" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_4" RequirementId="REQ_BELIEF_BONUS_4"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_4" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_5" RequirementId="REQ_BELIEF_BONUS_5"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_5" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_6" RequirementId="REQ_BELIEF_BONUS_5"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_6" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_7" RequirementId="REQ_BELIEF_BONUS_7"/>
+        <Row RequirementSetId="REQSET_BELIEF_BONUS_7" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+
+    </RequirementSetRequirements>
+    <UnlockRequirements>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_17" RequirementSetId="REQSET_BELIEF_BONUS_17" Description="LOC_UNLOCK_BELIEF_BONUS_17_DESCRIPTION"/>
+      <InsertOrIgnore UnlockType="UNLOCK_BELIEF_BONUS_18" RequirementSetId="REQSET_BELIEF_BONUS_18" Description="LOC_UNLOCK_BELIEF_BONUS_18_DESCRIPTION"/>
+   
+   
+   
+   
+    </UnlockRequirements>
+</Database>
