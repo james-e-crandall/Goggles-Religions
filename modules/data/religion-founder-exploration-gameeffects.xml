@@ -12,22 +12,5 @@
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
 	</Modifier>
-	
-	<Modifier id="BONUS_GOGGLES_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
-			<Requirement type="REQUIREMENT_NEAR_RELIGIOUS_CITY">
-				<Argument name="FriendlyCity">false</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_COMBAT</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_COMBAT_STRENGTH_UNFRIENDLY_RELIGIOUS_CITY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_BELIEF_GOGGLES_COMBAT_PREVIEW</String>
-	</Modifier>
 
 </GameEffects>

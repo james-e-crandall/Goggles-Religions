@@ -1,92 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
     <!-- Founder Beliefs -->
-    <Modifier id="BONUS_17_CITIES_FOLLOWING_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
-    </Modifier>
-    <Modifier id="BONUS_18_NATURAL_WONDER_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">8</Argument>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_NATURAL_WONDER</Argument>
-    </Modifier>
-    <Modifier id="BONUS_18_NATURAL_WONDER_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">8</Argument>
-        <Argument name="YieldType">YIELD_CULTURE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_NATURAL_WONDER</Argument>
-    </Modifier>
-    <Modifier id="BONUS_18_NATURAL_WONDER_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">8</Argument>
-        <Argument name="YieldType">YIELD_GOLD</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_NATURAL_WONDER</Argument>
-    </Modifier>
-    <Modifier id="BONUS_19_WONDERS_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_WONDER</Argument>
-    </Modifier>
-    <Modifier id="BONUS_19_WONDERS_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_CULTURE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_WONDER</Argument>
-    </Modifier>
-    <Modifier id="BONUS_19_WONDERS_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_GOLD</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_WONDER</Argument>
-    </Modifier>
-    <Modifier id="BONUS_20_CITIES_FOLLOWING_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_GOLD</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
-    </Modifier>
-    <Modifier id="BONUS_21_CITIES_FOLLOWING_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_CULTURE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
-    </Modifier>
-    <Modifier id="BONUS_22_TROPICAL_CITIES_FOLLOWING_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">2</Argument>
-        <Argument name="BiomeType">BIOME_TROPICAL</Argument>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_BIOME</Argument>
-    </Modifier>
-    <Modifier id="BONUS_23_TUNDRA_CITIES_FOLLOWING_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">2</Argument>
-        <Argument name="BiomeType">BIOME_TUNDRA</Argument>
-        <Argument name="YieldType">YIELD_CULTURE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_BIOME</Argument>
-    </Modifier>
-    <Modifier id="BONUS_24_DESERT_CITIES_FOLLOWING_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">2</Argument>
-        <Argument name="BiomeType">BIOME_DESERT</Argument>
-        <Argument name="YieldType">YIELD_GOLD</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_BIOME</Argument>
-    </Modifier>
-    <Modifier id="BONUS_25_CITIES_FOLLOWING_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">4</Argument>
-        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
-    </Modifier>
-    <Modifier id="BONUS_26_MARINE_CITIES_FOLLOWING_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">1</Argument>
-        <Argument name="BiomeType">BIOME_MARINE</Argument>
-        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_BIOME</Argument>
-    </Modifier>
-    <Modifier id="BONUS_27_GRASSLAND_CITIES_FOLLOWING_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">1</Argument>
-        <Argument name="BiomeType">BIOME_GRASSLAND</Argument>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_BIOME</Argument>
-    </Modifier>
-    <Modifier id="BONUS_28_PLAINS_CITIES_FOLLOWING_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
-        <Argument name="Amount">1</Argument>
-        <Argument name="BiomeType">BIOME_PLAINS</Argument>
-        <Argument name="YieldType">YIELD_CULTURE</Argument>
-        <Argument name="BeliefYieldType">BELIEF_YIELD_PER_BIOME</Argument>
-    </Modifier>
+	<Modifier id="BONUS_GOGGLES_CITIES_FOLLOWING_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_ADD_RELIGIOUS_BELIEF_YIELD">
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="BeliefYieldType">BELIEF_YIELD_PER_FOREIGN_CITY</Argument>
+	</Modifier>
 
     <!-- Legend Cards -->
     <!-- shared game effects found in advanced-start-gameeffects.xml for modern -->
